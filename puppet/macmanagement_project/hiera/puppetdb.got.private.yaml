@@ -1,0 +1,10 @@
+---
+pdb_mode: 'pdb'
+pdb_puppetserver: 'puppetserver.got.private'
+pdb_fw_on: false
+localadmin_linuxadmins:
+  localadmin:
+   local_admin: 'localadmin'
+   password: '$6$rwgFfKNe$SMn6VgH/2LZXeEQpG8qPHXmak8XPWJv1InId33mhXRrrNHrh5k8IEadRQtpg.mqghQQrPCucKZ2HSkIDPC7rZ.'
+   ssh_keyname: 'localadmin@got.private'
+   ssh_key: ''
