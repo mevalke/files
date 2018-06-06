@@ -5,3 +5,5 @@ localadmin_linuxadmins:
    password: '$6$rwgFfKNe$SMn6VgH/2LZXeEQpG8qPHXmak8XPWJv1InId33mhXRrrNHrh5k8IEadRQtpg.mqghQQrPCucKZ2HSkIDPC7rZ.'
    ssh_keyname: 'localadmin@got.private'
    ssh_key: ''
+pdb_mode: 'pm'
+pdb_postgres_host: 'puppetdb.got.private'

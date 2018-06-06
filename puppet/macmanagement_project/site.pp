@@ -13,3 +13,6 @@ node 'netboot.got.private' {
 node 'client.got.private' {
 	include role::client
 }
+node 'autosign.got.private' {
+	include role::client
+}
