@@ -83,6 +83,10 @@ mod 'puppetdb_ui',
   :git => "https://github.com/mevalke/puppet-puppetdb_ui.git"
 mod 'firewall_linux',
   :git => "https://github.com/mevalke/puppet-firewall_linux.git"
+mod 'munki',
+  :git => "https://github.com/mevalke/puppet-munki.git"
+mod 'defines',
+  :git => "https://github.com/mevalke/puppet-defines.git"
 #======= Forge
 # mod 'puppetlabs-xinetd', '2.0.0'
 # mod 'puppetlabs-docker_platform', '2.2.1'
