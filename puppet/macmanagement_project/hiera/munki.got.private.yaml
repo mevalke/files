@@ -5,6 +5,8 @@ munki::sambauser: localadmin
 munki::sambapassword: 'Passw0rd'
 munki::repositories: [ en, fi ]
 munki::samba_interfaces: 'eth0 lo'
+firewall_linux_ssh_access:
+ - '0.0.0.0/0'
 localadmin_linuxadmins:
   localadmin:
    local_admin: 'localadmin'
