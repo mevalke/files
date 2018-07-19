@@ -14,5 +14,5 @@ node 'client.got.private' {
 	include role::client
 }
 node 'autopkg.got.private' {
-	include role::client
+	include role::autopkg
 }
