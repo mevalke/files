@@ -1,4 +1,3 @@
-root@puppetserver:/home/admin# cat /etc/puppetlabs/code/environments/production/data/nodes/autopkg.got.private.yaml
 ---
 localadmin_macadmins:
   localadmin:
