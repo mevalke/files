@@ -15,15 +15,16 @@ munki::client: true
 munki::munkitools: 'https://github.com/munki/munki/releases/download/v2.8.1/munkitools-2.8.1.2845.pkg'
 munki::appleupdatesonly: 0
 munki::installappleupdates: 0
-munki::munkirepo: 'https://munki.got.private/en'
+munki::munkirepo: 'https://munki.got.private/munki/en'
 autopkg::autopkg_url: 'https://github.com/autopkg/autopkg/releases/download/v1.0.4/autopkg-1.0.4.pkg'
 autopkg::autopkg_user: localadmin
-autopkg::autopkg_ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCcu+4UuMqqWI5no/PO7LZFf+37TC02iCqpJRFmjxvlZo1l6/nzu5GNBiMBJe0TkXgxQ4hefoXBW6oT6clxks4GGFuEPqxkjsCYxuJKnlrxf8z2+pHDiQuY2oGxnLX4hcEnPPq0lLYIJ90uRA0/KaTkDXZkkCsGp7qubyjidpRyIQ2w0k2cSZWnNtC5N/cI/eGluyNYRIX3quXu6gwo45vdvkFxPIJRwYX4gJ8sNqIWc3V8JWdGMl110hmXqK25kq2nuWlD85TDrAa/SBefAJj1CQ9sdMuzTPQCsQzsQEQJmYU+ExnrVzB3LUw1Mb1iImWqJMg0wOdbzu1JnDHCTw2z'
+autopkg::autopkg_pw: Passw0rd
+autopkg::autopkg_ssh_key: 'companykey' 
 autopkg::repositories:
   en:
     'recipe_repos': "hjuutilainen/autopkg-virustotalanalyzer hjuutilainen-recipes arubdesu-recipes jleggat-recipes jessepeterson-recipes n8felton-recipes"
-    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe AppleHPPrinterDrivers.munki.recipe"
+    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe AppleHPPrinterDrivers.munki.recipe Adium.munki.recipe VLC.munki.recipe"
   fi:
     'recipe_repos': "hjuutilainen/autopkg-virustotalanalyzer hjuutilainen-recipes arubdesu-recipes jleggat-recipes jessepeterson-recipes n8felton-recipes"
-    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe"
+    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe Adium.munki.recipe"
 autopkg::munki_server: munki.got.private
