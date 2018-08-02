@@ -1,6 +1,5 @@
 ---
-munki::server: true
-munki::client: false
+munki::mode: server
 munki::sambauser: localadmin
 munki::sambapassword: 'Passw0rd'
 munki::repositories: [ en, fi ]

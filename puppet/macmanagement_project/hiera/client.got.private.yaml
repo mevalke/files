@@ -1,6 +1,5 @@
 ---
-munki::server: false
-munki::client: true
+munki::mode: client
 munki::munkitools: 'https://github.com/munki/munki/releases/download/v2.8.1/munkitools-2.8.1.2845.pkg'
 munki::appleupdatesonly: 0
 munki::installappleupdates: 0
