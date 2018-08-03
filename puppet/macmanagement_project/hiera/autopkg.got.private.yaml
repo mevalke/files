@@ -10,8 +10,7 @@ localadmin_macadmins:
    ssh_keyname: 'localadmin@example.com'
    ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCcu+4UuMqqWI5no/PO7LZFf+37TC02iCqpJRFmjxvlZo1l6/nzu5GNBiMBJe0TkXgxQ4hefoXBW6oT6clxks4GGFuEPqxkjsCYxuJKnlrxf8z2+pHDiQuY2oGxnLX4hcEnPPq0lLYIJ90uRA0/KaTkDXZkkCsGp7qubyjidpRyIQ2w0k2cSZWnNtC5N/cI/eGluyNYRIX3quXu6gwo45vdvkFxPIJRwYX4gJ8sNqIWc3V8JWdGMl110hmXqK25kq2nuWlD85TDrAa/SBefAJj1CQ9sdMuzTPQCsQzsQEQJmYU+ExnrVzB3LUw1Mb1iImWqJMg0wOdbzu1JnDHCTw2z'
 localadmin_hide_macadmins: 'FALSE'
-munki::server: false
-munki::client: true
+munki::mode: client
 munki::munkitools: 'https://github.com/munki/munki/releases/download/v2.8.1/munkitools-2.8.1.2845.pkg'
 munki::appleupdatesonly: 0
 munki::installappleupdates: 0
