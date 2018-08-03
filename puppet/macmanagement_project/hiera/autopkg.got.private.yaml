@@ -7,7 +7,7 @@ localadmin_macadmins:
    password: '691f3f31a8de4f642674f066fcac5a5fdde8f8cf5347f3e2c9591f6ed7a98566eb01b8d03e52501881ef80613751a1ccbcc4f4305d0caa0ddaae0003280c93f1ebbcb11e2a7c7bd5aa69e88e097142472556fc3aa97efa8944ad71d9d419e9143cf3ea69cdf8fdf679e829bf7bd1b0b17749432013a6a20c6c6fe70bef6dce1d'
    salt: '434df33ea9ad162babc43be7ad3c3aff6af0d59feff92bcf399b6d7b97603630'
    uid: '444'
-   ssh_keyname: 'localadmin@example.com'
+   ssh_keyname: 'localadmin@got.private'
    ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCcu+4UuMqqWI5no/PO7LZFf+37TC02iCqpJRFmjxvlZo1l6/nzu5GNBiMBJe0TkXgxQ4hefoXBW6oT6clxks4GGFuEPqxkjsCYxuJKnlrxf8z2+pHDiQuY2oGxnLX4hcEnPPq0lLYIJ90uRA0/KaTkDXZkkCsGp7qubyjidpRyIQ2w0k2cSZWnNtC5N/cI/eGluyNYRIX3quXu6gwo45vdvkFxPIJRwYX4gJ8sNqIWc3V8JWdGMl110hmXqK25kq2nuWlD85TDrAa/SBefAJj1CQ9sdMuzTPQCsQzsQEQJmYU+ExnrVzB3LUw1Mb1iImWqJMg0wOdbzu1JnDHCTw2z'
 localadmin_hide_macadmins: 'FALSE'
 munki::mode: client
