@@ -4,6 +4,6 @@ localadmin_linuxadmins:
    local_admin: 'localadmin'
    password: '$6$rwgFfKNe$SMn6VgH/2LZXeEQpG8qPHXmak8XPWJv1InId33mhXRrrNHrh5k8IEadRQtpg.mqghQQrPCucKZ2HSkIDPC7rZ.'
    ssh_keyname: 'localadmin@got.private'
-   ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCuoEL/2xo+lwp1+m8LzYYkVEp8WYNlIBZ/EL2xxOdsr05cdQFXa5XC+qis2fy+i9Iel2hX4Cwtya70BjWIEfk/Dg4OkrvNzOqxQBZ33hri824G/WPxYP1d2U0GS8XH+p821UkC5qpmJfA2Lpns8BggboiczLAltCSd5uV7dCMwCJeX5fKLUBSevc1AUv04YfG6+csiUowy/QfjUJYEQdj6W96WnxYW0F9nRqVX4cbx7FQVrSm6YzbrXFBNYDPIkK6aFGd0U0+1stRWvuNnUiycZyKE/1xib2iuaTzZ9oi85ooDFUprLp1sUygY4HRJ8tyr/FUo6BRsdloW+B0pdVbt'
+   ssh_key: ''
 pdb_mode: 'pm'
 pdb_postgres_host: 'puppetdb.got.private'
