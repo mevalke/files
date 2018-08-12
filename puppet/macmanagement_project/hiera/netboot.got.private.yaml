@@ -1,0 +1,29 @@
+---
+localadmin_linuxadmins:
+  localadmin:
+   local_admin: 'localadmin'
+   password: '$6$rwgFfKNe$SMn6VgH/2LZXeEQpG8qPHXmak8XPWJv1InId33mhXRrrNHrh5k8IEadRQtpg.mqghQQrPCucKZ2HSkIDPC7rZ.'
+   ssh_keyname: 'localadmin@got.private'
+   ssh_key: ''
+netboot::imagr_server_ip: netboot_ip
+netboot::imagr_server_dns: 'netboot'
+netboot::puppetmaster: 'puppetserver.got.private'
+netboot::password: 'fe0d8456dd3f1a0f68cde11860c34bddce97dcbc20f389f534af8c4c49e225f6307ca16e414ac04c8d67b80821690edceb86f8de0d5286dd37ee562e3dcf2e80'
+netboot::autodmg: 'mac_os.hfs.dmg'
+netboot::nbi: '10.11.6AutoImagrNBI.tar.gz'
+netboot::nbi_url: netboot_url
+netboot::nbi_checksum: '4fa4e2cd4824f1e21804b01bc28dec7b9d65e703'
+netboot::nbi_checksum_type: 'sha1'
+netboot::puppet_agent: 'puppetagent.pkg'
+netboot::description: "Workflow: 1.Erases the disk 2.Deploys OSX El Capitan 10.11.6 3.Renames the Mac 4.Installs Puppet."
+netboot::bsdpy_iface: 'eth0'
+netboot::mac_1: 'client_serial client.got.private client_passcode'
+netboot::mac_2: ''
+netboot::mac_3: ''
+netboot::mac_4: ''
+netboot::mac_5: ''
+netboot::mac_6: ''
+netboot::mac_7: ''
+netboot::mac_8: ''
+netboot::mac_9: ''
+netboot::mac_10: ''
