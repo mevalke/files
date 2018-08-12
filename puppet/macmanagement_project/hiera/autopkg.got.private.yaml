@@ -22,8 +22,9 @@ autopkg::autopkg_ssh_key: 'companykey'
 autopkg::repositories:
   en:
     'recipe_repos': "hjuutilainen/autopkg-virustotalanalyzer hjuutilainen-recipes arubdesu-recipes jleggat-recipes jessepeterson-recipes n8felton-recipes"
-    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe AppleHPPrinterDrivers.munki.recipe Adium.munki.recipe VLC.munki.recipe"
+    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe"
+#    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe AppleHPPrinterDrivers.munki.recipe Adium.munki.recipe VLC.munki.recipe"
   fi:
     'recipe_repos': "hjuutilainen/autopkg-virustotalanalyzer hjuutilainen-recipes arubdesu-recipes jleggat-recipes jessepeterson-recipes n8felton-recipes"
-    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe Adium.munki.recipe"
+    'recipes': "Firefox.munki.recipe GoogleChrome.munki.recipe"
 autopkg::munki_server: munki.got.private
